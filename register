@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form class="form">
+        <div class="container">
+            <h1 style="color:burlywood">Regisztráció</h1>
+            <hr>
+            <p style="color:burlywood">Töltsd ki a regisztrációs ürlapot</p>
+            <hr>
+
+            <label for="email"><b style="color:burlywood">Email</b></label>
+            <input id="input" type="text" placeholder="Email" name="email" autocomplete="off" required>
+
+            <label for="psw"><b style="color:burlywood">Jelszó</b></label>
+            <input id="input" type="password" placeholder="Jelszó" name='password' autocomplete="off" required>
+            <p id='text'>Caps Lock be van kapcsolva</p>
+
+            <label for="psw"><b style="color:burlywood">Jelszó ismétlés</b></label>
+            <input id="input" type="password" placeholder="Jelszó ismétlése" name="psw-repeat" autocomplete="off" required>
+            <p id="text">Caps lock be van kapcsolva</p>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 10px" >
+                <b style="color: burlywood;">Emlékezz rám</b>
+            </label>
+
+            <p style="color:burlywood">Elfogadod: <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <a href="index_3.html" type="submit" onclick="myFunction()" class="signupbtn">Regisztráció</a>
+                <div class="login">
+                <p>Ha már van fiókod katt <a href="index_2.html">ide</a></p>
+            </div>
+            </div>
+        </div>
+    </form>
+    <div class="footer">
+        <p>&copy; 2021, B&B Corporation  <a href="https://twitter.com/BBCorporation1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BBCorporation</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+    </div>
+</div>
+</body>
+</html>
