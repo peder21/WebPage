@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&B Bútoráruház</title>
+    <link rel="stylesheet" type="text/css" href="style_2.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">B&B Bútoráruház</div>
+    </div>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Áruház
+          <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Tv</a>
+            <a href="#">Laptop</a>
+            <a href="#">Asztali számitógép</a>
+          </div>
+        </div>
+        <a href="index_3.html" id="about">Főoldal</a>
+       <a href="#" id="blog">Blog</a>
+       <a href="index_4.html"  id="contact">Rólunk</a>
+      
+    </div>
+    <div class="content">
+      Kedves vásárlóink köszöntjük önöket a B@B Bútoráruház weblapján. Ha valami hibát észlel értesítsen minket a "Rólunk" fült megnyomva és az email ciműnkön tud feltenni kérdéseket, hibákat, stb. Köszönjük a megértést.
+    </div>
+      <div class="footer">
+        <p>&copy; 2021, B&B Corporation  <a href="https://twitter.com/BBCorporation1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BBCorporation</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+    </div>
+    
+</body>
+</html>
